@@ -1,2 +1,2 @@
 # Escoleta
-Landing page que estou desenvolvendo durante um evento, Next Level Week, da Rocketseat
+Pagina que estou desenvolvendo Sem Frameworks, focada no design limpo e minimalista
