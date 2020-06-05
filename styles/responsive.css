@@ -1,6 +1,20 @@
 @media(max-width:900px){
     #page-home{
-        background-position-x:70vw ;
+        background: url();
+    }
+    #page-home::after {
+        background: url('../assets/home-background.svg') no-repeat;
+        background-position: center;
+        content: "";
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+
+
     }
 
     #page-home .content {
@@ -18,6 +32,14 @@
 
     #page-home main{
         align-items: center;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 200px;
     }
 }
 
