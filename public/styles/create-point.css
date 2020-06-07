@@ -59,10 +59,22 @@ form fieldset{
 
 form legend{
     margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form legend span{
+    color: var(--title-color);
+    font-size:14px;
 }
 
 form legend h2{
     font-size: 24px;
+
+   
 }
 
 form .field{
@@ -127,6 +139,8 @@ form button{
 form button:hover{
     background-color: #2fb86e;
 }
+
+
 
 .items-grid{
     display:grid;
